@@ -1,21 +1,22 @@
 {
-  "name": "backend",
+  "name": "todolist",
   "version": "1.0.0",
-  "description": "todo backend",
+  "description": "Chỉnh sửa: double click vào tiêu đề để sửa",
   "main": "index.js",
   "scripts": {
-    "start": "node server.js",
-    "dev": "nodemon server.js"
+    "build": "npm install --prefix backend && npm install --prefix frontend && npm run build --prefix frontend",
+    "start": "npm run start --prefix backend" 
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lamthu809/todoList.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
-  "devDependencies": {
-    "nodemon": "^3.1.14"
+  "bugs": {
+    "url": "https://github.com/lamthu809/todoList/issues"
   },
-  "dependencies": {
-    "express": "^5.3.0",
-    "vue": "^3.5.43"
-  }
+  "homepage": "https://github.com/lamthu809/todoList#readme"
 }

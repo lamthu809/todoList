@@ -1,1 +1,23 @@
-/node_modules
+# Thư viện 
+node_modules/
+backend/node_modules/
+frontend/node_modules/
+
+# Bảo mật 
+.env
+backend/.env
+frontend/.env
+*.local
+
+# File build xuất bản
+dist/
+frontend/dist/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Cấu hình IDE
+.vscode/
+.idea/
+.DS_Store
